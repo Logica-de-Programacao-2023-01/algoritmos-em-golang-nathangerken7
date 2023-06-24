@@ -1,0 +1,15 @@
+func main() {
+	var kg float64
+	fmt.Println("Seu kg para libra")
+	fmt.Scan(&kg)
+	var libra float64
+	fmt.Println("Sua libra para kg")
+	fmt.Scan(&libra)
+	var converterKl float64
+	converterKl = (kg * 2.205)
+	fmt.Println("Kg para libra:", converterKl)
+	var converterLk float64
+	converterLk = (libra * 0.454)
+	fmt.Println("Libra para kg:", converterLk)
+
+}

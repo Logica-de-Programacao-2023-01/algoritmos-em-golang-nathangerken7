@@ -1,0 +1,10 @@
+func main() {
+	var idade int
+	fmt.Println("Digite sua idade:")
+	fmt.Scan(&idade)
+
+	var dias int
+	dias = idade * 365
+
+	fmt.Printf("Sua idade em dias é: %v\n", dias)
+}

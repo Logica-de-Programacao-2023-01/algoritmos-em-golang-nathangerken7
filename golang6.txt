@@ -1,0 +1,9 @@
+func main() {
+	var salario float64
+	fmt.Println("Salário do funcionario:")
+	fmt.Scan(&salario)
+	var convertersd float64
+	convertersd = (15 * salario / 100)
+	salario += convertersd // Aumenta 15% do preço original
+	fmt.Println("Seu salário final é", salario)
+}

@@ -1,0 +1,13 @@
+func main() {
+	var num int
+	fmt.Print("Digite um número inteiro: ")
+	fmt.Scanln(&num)
+	
+	dobro := num * 2
+	triplo := num * 3
+	quadruplo := num * 4
+
+	fmt.Printf("O dobro de %d é %d\n", num, dobro)
+	fmt.Printf("O triplo de %d é %d\n", num, triplo)
+	fmt.Printf("O quadruplo de %d é %d\n", num, quadruplo)
+}

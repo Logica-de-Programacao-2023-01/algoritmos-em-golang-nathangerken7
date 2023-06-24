@@ -1,0 +1,11 @@
+func main() {
+	var numero int
+	fmt.Println("Digite o número inteiro:")
+	fmt.Scan(&numero)
+
+	sucessor := numero + 1
+	antecessor := numero - 1
+
+	fmt.Println("O sucessor de", numero, "é", sucessor)
+	fmt.Println("O antecessor de", numero, "é", antecessor)
+}

@@ -1,0 +1,9 @@
+func main() {
+	var preco float64
+	fmt.Println("Preço do produto:")
+	fmt.Scan(&preco)
+	var converterpd float64
+	converterpd = (10 * preco / 100)
+	preco -= converterpd // Diminui 10% do preço original
+	fmt.Println("Seu preço final é", preco)
+}

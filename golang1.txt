@@ -1,0 +1,13 @@
+func main() {
+	var num1, num2, num3 int
+	fmt.Print("Digite o primeiro número inteiro: ")
+	fmt.Scanln(&num1)
+	fmt.Print("Digite o segundo número inteiro: ")
+	fmt.Scanln(&num2)
+	fmt.Print("Digite o terceiro número inteiro: ")
+	fmt.Scanln(&num3)
+	
+	soma := num1 + num2 + num3
+	
+	fmt.Printf("A soma entre %d, %d e %d é %d\n", num1, num2, num3, soma)
+}
